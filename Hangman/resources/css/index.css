@@ -1,0 +1,50 @@
+body {
+    background-color: bisque;
+}
+
+.underscore {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 50px;
+    visibility: hidden;
+}
+
+.alphabet-container {
+    cursor: pointer;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.alphabet-container p {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    width: 15px;
+    padding: 10px;
+    padding-left: 12px;
+    border-radius: 50%;
+}
+
+.container {
+    text-align: center;
+}
+
+.underscore-container {
+    text-align: center;
+}
+
+#stageImg {
+    position: absolute;
+    left: 0;
+    height: 250px;
+    width: 150px;
+}
+
+#word {
+    position: absolute;
+    left: 545px;
+    top: 50px;
+    font-size: 25px;
+    letter-spacing: 20px;
+}
